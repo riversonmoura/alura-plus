@@ -42,12 +42,12 @@ body {
   display: block;
   text-decoration: none;
   margin-bottom: 1em;
-  opacity: 0.8;
-  transition: 400ms;
+  transition: filter .2s;
 }
 
 .container__botao:hover {
-  opacity: 1;
+  filter: brightness(1.2);
+  cursor: pointer;
 }
 
 .botao_secundario {
